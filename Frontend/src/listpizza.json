@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "name": "Pizza Hải Sản Xốt Mayonnaise - Ocean Mania",
+        "image": "https://img.dominos.vn/Pizza-Hai-San-Xot-Mayonnaise-Ocean-Mania.jpg",
+        "sizePrice": "9 inch - 205,000đ"
+    },
+    {
+        "id": 2,
+        "name": "Pizza Bò & Tôm Nướng Kiểu Mỹ - Surf & Turf",
+        "image": "https://img.dominos.vn/Surf-turf-Pizza-Bo-Tom-Nuong-Kieu-My-1.jpg",
+        "sizePrice": "9 inch - 215,000đ"
+    },
+    {
+        "id": 3,
+        "name": "Pizza Hải Sản Nhiệt Đới Xốt Tiêu - Pizzamin Sea",
+        "image": "https://img.dominos.vn/Pizzaminsea-Hai-San-Nhiet-Doi-Xot-Tieu.jpg",
+        "sizePrice": "9 inch - 215,000đ"
+    },
+    {
+        "id": 4,
+        "name": "Pizza Hải Sản Xốt Pesto Chanh Sả - Seafood Lime Pesto",
+        "image": "https://img.dominos.vn/lime.png",
+        "sizePrice": "9 inch - 215,000đ"
+    },
+    {
+        "id": 5,
+        "name": "Pizza Hải Sản Xốt Xoài - Seafood Mango Creamy",
+        "image": "https://img.dominos.vn/PC-MB1000X667px+(NEW).jpg",
+        "sizePrice": "9 inch - 205,000đ"
+    }
+
+]

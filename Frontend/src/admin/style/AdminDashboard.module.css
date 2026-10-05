@@ -1,0 +1,26 @@
+:root {
+    --glass: rgba(255, 255, 255, 0.54);
+}
+.Main {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MainGlass {
+    display: grid;
+    height: 97%;
+    width: 97%;
+    border-radius: 2rem;
+    background-color: var(--glass);
+    overflow: hidden;
+    grid-template-columns: 14rem auto;
+}
+
+@media screen and (max-width: 1200px){
+    .MainGlass {
+        grid-template-columns: 80px auto;
+        overflow-y: scroll;
+    }
+}

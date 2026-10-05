@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Chai Sprite 390ml",
+        "image": "https://img.dominos.vn/Sprite-390.jpg",
+        "sizePrice": "25,000đ"
+    },
+    {
+        "id": 2,
+        "name": "Trà đào hạt chia 350ml",
+        "image": "https://img.dominos.vn/dao-hat-chia.jpg",
+        "sizePrice": "25,000đ"
+    },
+    {
+        "id": 3,
+        "name": "Chai Coca-Cola 1.5L",
+        "image": "https://img.dominos.vn/coke-1.5.jpg",
+        "sizePrice": "39,000đ"
+    },
+    {
+        "id": 4,
+        "name": "Nước suối Dasani 510ml",
+        "image": "https://img.dominos.vn/daisani.jpg",
+        "sizePrice": "25,000đ "
+    },
+    {
+        "id": 5,
+        "name": "Chanh Dây Hạt Chia 350ml",
+        "image": "https://img.dominos.vn/Fuzetea%2B-Chanh-Day-350ml-new-new.png",
+        "sizePrice": "25,000đ "
+    }
+]

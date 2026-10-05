@@ -1,0 +1,15 @@
+.ContentMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ContentMain h1 {
+    font-size: 2rem; 
+    font-weight: bold;
+}
+@media screen and (max-width: 1200px){
+    .ContentMain{
+        justify-content: flex-start;
+        margin-top: 2rem;
+    }
+}

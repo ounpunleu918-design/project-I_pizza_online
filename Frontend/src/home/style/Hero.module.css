@@ -1,0 +1,23 @@
+.container {
+  height: 34vw;
+  margin: 30px auto;
+  background-image: url('https://cellphones.com.vn/sforum/wp-content/uploads/2023/09/cach-nuong-pizza-thumbnail.jpg');
+  background-size: cover;
+  background-position: center;
+  animation: slideBackground 20s linear infinite; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+@keyframes slideBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%; 
+  }
+  100% {
+    background-position: 0% 0%; 
+  }
+}

@@ -1,0 +1,85 @@
+.cardContainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.cardContent {
+    flex: 1 1 12%; 
+    padding: 8px; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardContent:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cardCover {
+    font-size: 1.2rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px; 
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cardTitle {
+    background: #ffffffb0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0; 
+    font-size: 0.9rem; 
+    color: #1d1919;
+    border-radius: 6px;
+    font-weight: 800;
+}
+
+.cardTotal {
+    font-weight: bolder;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0; 
+    font-size: 1rem; 
+    color: white;
+    border-radius: 6px;
+}
+
+.cardEarning {
+    background: #bb67bb;
+}
+.cardCustomers {
+    background: #e76868;
+}
+
+.cardOrders {
+    background: #1ab1b6;
+}
+
+@media screen and (max-width: 1200px){
+    .cardContainer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .cardContainer {
+        grid-template-columns: 1fr;
+    }
+}

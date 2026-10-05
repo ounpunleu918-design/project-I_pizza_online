@@ -1,0 +1,9 @@
+@import url(https://db.onlinewebfonts.com/c/0388eb783c1cd17564023c590b3766c1?family=SVN-Poppins);
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+  font-family: "SVN-Poppins";
+}
+
